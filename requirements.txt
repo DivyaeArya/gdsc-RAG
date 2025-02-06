@@ -4,3 +4,4 @@ deepgram-sdk
 chromadb
 langchain
 requests
+pysqlite3-binary
