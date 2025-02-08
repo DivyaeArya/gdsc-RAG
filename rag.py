@@ -14,6 +14,11 @@ from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.schema import Document
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
+import os
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
 GROQ_API_KEY = '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'
 DEEPGRAM_API_KEY = 'dbbce00f3dccd72ab5dd503c2accfdb5f411a17e'
 
