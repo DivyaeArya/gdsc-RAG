@@ -6,4 +6,3 @@ deepgram-sdk
 chromadb
 langchain
 sentence-transformers
-sqlite3
