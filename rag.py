@@ -19,7 +19,7 @@ DEEPGRAM_API_KEY = 'dbbce00f3dccd72ab5dd503c2accfdb5f411a17e'
 
 embedding_model = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
 
-chroma_client = chromadb.EphemeralClient(settings=chromadb.Settings(allow_reset=True))  
+chroma_client = chromadb.PersistentClient(path="./chroma_db", settings=chromadb.Settings(allow_reset=True))  
 vector_db = Chroma(client=chroma_client, embedding_function=embedding_model)
 client = Groq(
     api_key= GROQ_API_KEY,
