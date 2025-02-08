@@ -1,7 +1,9 @@
 streamlit
+requests
+base64
 groq
 deepgram-sdk
 chromadb
 langchain
-requests
-pysqlite3-binary
+sentence-transformers
+sqlite3>=3.35.0
