@@ -1,6 +1,5 @@
 streamlit
 requests
-base64
 groq
 deepgram-sdk
 chromadb
