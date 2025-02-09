@@ -1,5 +1,6 @@
 # RAG App
-
+## Hosted [Here](https://gdsc-rag.streamlit.app/)
+https://gdsc-rag.streamlit.app/
 ## Overview
 The RAG (Retrieval-Augmented Generation) App is a Streamlit-based application that integrates text retrieval, document processing, and text-to-speech functionalities. It allows users to interact with a chatbot powered by Groq LLM while enhancing responses using relevant context retrieved from uploaded text documents. Additionally, the app supports voice input transcription and text-to-speech synthesis.
 
